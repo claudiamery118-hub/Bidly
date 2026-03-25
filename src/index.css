@@ -1,0 +1,40 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --blush:    #f5dde0;
+  --rose:     #c9626e;
+  --wine:     #7a2535;
+  --deepwine: #4e0f1c;
+  --cream:    #fdf6f0;
+  --gold:     #c8a96e;
+  --dark:     #2a1a1e;
+  --muted:    #9a7c82;
+  --border:   #ead5d8;
+  --white:    #ffffff;
+  --green:    #4a7c59;
+  --lightgreen: #e8f5ec;
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--dark);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes popIn {
+  0%   { opacity: 0; transform: scale(0.94); }
+  70%  { transform: scale(1.02); }
+  100% { opacity: 1; transform: scale(1); }
+}
