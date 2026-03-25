@@ -1,4 +1,4 @@
-# 🎀 BidDay — Sorority Recruitment Matcher
+# 🎀 BidLy — Sorority Recruitment Matcher
 
 A multi-role web app for sorority recruitment that uses the **Gale-Shapley stable matching algorithm** to match PNMs with houses — the same algorithm used by the NRMP for medical residency placement.
 
